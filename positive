@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int n;
+printf("emter the number");
+scanf("%d",&n);
+if(n>=0)
+{
+printf("the given number is positive");
+else
+printf("the given number is negative");
+}
+getch();
+}
